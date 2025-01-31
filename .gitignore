@@ -1,0 +1,37 @@
+# Ignore os arquivos bin e obj (build)
+bin/
+obj/
+
+# Ignore arquivos do Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Arquivos do NuGet
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de configuração de sistema
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istPublic/
+
+# Ignore arquivos específicos de usuário
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore arquivos temporários de compilação
+*.tmp
+*.bak
+*.swp
+
+# Ignore arquivos de cache do Visual Studio
+.vs2017/
+.vs2019/
